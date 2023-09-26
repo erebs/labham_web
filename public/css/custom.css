@@ -1,0 +1,91 @@
+
+.va-m {
+  vertical-align: middle !important;
+}
+.user-image80 {
+	height: 80px;
+	width: 80px;
+}
+.p-10 {
+	padding:10px;
+}
+.w-100p {
+	width: 100% !important;
+}
+.counter-head {
+	font-size:18px;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+.counter-subhead {font-size:10px;}
+.plan-title {
+  position: relative;
+  margin: -20px -10px 20px;
+  padding: 20px;
+  line-height: 1;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-bottom: 1px dotted #ccc;
+  background-color: #607d8b;
+  color: #fff;
+}
+.plan-tall {
+  margin: 0;
+  background: #fff;
+  border-width: 1px;
+  border-radius: 4px;
+  margin-right: -30px;
+  position: relative;
+  z-index: 100;
+  border: solid #607d8b;
+  position: relative;
+}
+.mt-30{
+  margin-top: 30px;
+}
+.clr-bidd {
+  color: #e04f67;
+  font-weight: bold;
+  text-align: start;
+}
+.border-rightes{
+  border-right: 1px dotted #607d8b;
+}
+.font-15{
+  font-size: 15px;
+}
+.font-bold{
+  font-weight: bold;
+}
+.text-start{
+  text-align: start;
+}
+.mt-50{
+  margin-top: 50px;
+}
+.text-justify{
+  text-align: justify;
+}
+.width100p {
+  width: 100% !important;
+}
+.img-300{
+  width: 300px;
+  height: 300px;
+}
+.card-custom {
+  margin-bottom: 10px;
+  padding: 15px 20px;
+  font-weight: 600;
+  border-radius: 0px;
+}
+.height-160 {
+  height: 160px;
+}
+.pointer {
+  cursor: pointer !important;
+}
+.abt-circle-imgs {
+  border-radius: 50%;
+}

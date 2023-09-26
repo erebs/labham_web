@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LABHAM HOUSE | Sign in</title>
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/labam.css">
+	<!-- fav icon  -->
+	<link rel="icon" type="image/x-icon" href="./images/fav-icon.png">
+	<!-- icons  -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- bootstrap  -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+	<!-- navbar  -->
+	<nav>
+    <div class="nav-main container-main">
+      <div class="nav-logo">
+        <a href="./index.html"><img src="./images/logo-main.png" alt="logo-main"></a>
+      </div>
+			<div class="form-group has-search nav-item-links align-items-center" style="margin-bottom: 0px;">
+				<span class="fa fa-search form-control-feedback"></span>
+				<input type="text" class="form-control" placeholder="Search essentials,  and more...">
+			</div>
+      <div class="nav-buttons">
+        <ul class="d-flex" style="margin-bottom: 0px;">
+					<li><a href="signin.html"><img src="./images/user.png" alt="login"> Sign Up/Sign In</a></li> 
+					<li><a href="cart.html"><img src="./images/Buy.png" alt="cart"> Cart</a></li>
+					<i onclick="toggleCartt()" class="fa-solid fa-bars d-md-block d-lg-none"></i></ul>
+      </div>
+    </div>
+		<div class="container-main under-container-nav">
+			<div class="under-nav">
+				<ul>
+					<li><a href="index.html" class="active-nav">Home</a></li>
+					<li><a href="products.html">Products</a></li>
+					<li><a href="aboutus.html">About</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="contactus.html">Contact us</a></li>
+				</ul>
+			</div>
+		</div>
+  </nav>
+	<!-- sidebar  -->
+	<div class="sidebar">
+		<div class="navbar-sidebar">
+			<ul>
+				<li class="sidebar-li"><a href="index.html">Home</a></li>
+				<li class="sidebar-li"><a href="products.html">Our Product</a></li>
+				<li class="sidebar-li"><a href="aboutus.html">About</a></li>
+				<li class="sidebar-li"><a href="blog.html">Blog</a></li>
+				<li class="sidebar-li"><a href="contactus.html">Contact us</a></li>
+				<li class="sidebar-li"><a href="cart.html">Cart</a></li>
+				<li class="sidebar-li"><a class="active-sidebar" href="track.html">Track</a></li>
+				<li class="sign-in-btn-mobile"><a href="signin.html">Sign in</a></li>
+			</ul>
+		</div>
+		<div class="d-inline closse" onclick="toggleCartt()"><img src="./images/close-circle-line.png" alt="" srcset=""></div>
+	</div>
+	<!-- navbar end -->
+	<div class="container-main">
+		<div class="tack-page">
+			<h1 class="track-main-head text-center">Track and order</h1>
+			<p class="text-center track-head-sub">Please enter your tracking number here</p>
+			<div class="input-group form-group mb-3 track-search-main">
+				<input type="number" class="form-control text-center" placeholder="Order Id" aria-label="Recipient's username" aria-describedby="basic-addon2">
+				<div class="input-group-append">
+					<button class="btn" type="button">Track </button>
+				</div>
+			</div>
+			<p class="second-sub-track-text text-center">Enter the tracking code sent on your registered Email/Mobile Number in the shipment confirmation email.</p>
+		</div>
+	</div>
+	<!-- footer   -->
+  <footer id="footer" style="background-image: url(./images/footer-bg.png);background-repeat: no-repeat;background-size: 100% auto;padding: 3% 0 1% 0;background-position: center;background-repeat: no-repeat;background-size: cover;height: -webkit-fill-available;">
+		<div class="container-main">
+			<div class="row text-sm-left text-md-left">
+				<div class="col-xs-6 col-sm-6 col-md-4">
+					<img class="logo-footer pb-3" src="./images/logo-main.png" alt="">
+					<ul class="list-unstyled quick-links">
+						<h3 class="footer-main-head">Contact Us</h3>
+						<li><a href="#"> <img style="width: 20px;margin-top: -3px;margin-right: 10px;" src="./images/whatsapp.png" alt="icon">+1 202-918-2132</a></li>
+						<li><a href="#"> <img style="width: 20px;margin-top: -3px;margin-right: 10px;" src="./images/Call.png" alt="icon"> +1 202-918-2132</a></li>
+					</ul>
+				</div>
+				<div class="col-xs-6 col-sm-6 col-md-4">
+					<h3 class="pb-3 footer-main-head">Most Popular Categories</h3>
+					<ul class="list-unstyled quick-links">
+						<li><a href="#">  Tiles</a></li>
+						<li><a href="#">  Pipes</a></li>
+						<li><a href="#">  Bathroom Fittings</a></li>
+						<li><a href="#">  Lights</a></li>
+						<li><a href="#">  Switch Boards</a></li>
+						<li><a href="#">  Wood Floorting</a></li>
+						<li><a href="#">  WIRES</a></li>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4">
+					<h3 class="pb-3 footer-main-head">Customer Services</h3>
+					<ul class="list-unstyled quick-links">
+						<li><a href="#">  About Us</a></li>
+						<li><a href="#">  Terms & Conditions</a></li>
+						<li><a href="#">  FAQ</a></li>
+						<li><a href="#">  E-waste Policy</a></li>
+						<li><a href="#" title="Design and developed by">Cancellation & Return Policy</a></li>
+					</ul>
+				</div>
+        
+			</div>
+      <hr>
+      <div class="text-center">
+        <a href="https://www.erebsindia.com/" class="text-dark footer-text">© copyright 2022 Dunes | Designed by  ERE Business Solutions</a>
+      </div>
+		</div>
+  </footer>
+	<!-- js link -->
+	<script src="./js/main.js"></script>
+	<!-- scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
